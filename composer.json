@@ -1,0 +1,24 @@
+{
+    "name": "golfclash/new",
+    "description": "golf clash cheat engine ",
+    "homepage": "https://djclubber.com/golf-clash-cheats/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CLICK to use golf clash cheat",
+            "homepage": "https://djclubber.com/golf-clash-cheats/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fva\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
